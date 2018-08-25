@@ -4,6 +4,7 @@
 
 <script>
 import Vue from "vue";
+import has from "@/common/js/btnPermissions.js";
 import { getUserInfo } from "@/api/user/index";
 import errorRoute from "@/router/errorRoute";
 import Component from "@/router/component";
